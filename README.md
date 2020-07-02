@@ -19,9 +19,15 @@ echo "v12.16.1" > .nvmrc
 ## install deps
 ```  npm install --save nexmo-client ```
 
+## run your app
+``` npm start ```
+
+now you should see a working app on `http://localhost:3000/`
 
 
-## in your app
+
+
+## now let's create a nexmo hello world
 
 set the content of the file src/App.js
 
