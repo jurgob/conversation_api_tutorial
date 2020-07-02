@@ -119,3 +119,6 @@ export default App;
 
 ```
 
+
+
+If everything is gonna work correctly, You should see the `Who am I?` text while the client is connecting, once connected is gonna be replaced by your username
