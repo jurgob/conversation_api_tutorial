@@ -126,7 +126,7 @@ If everything is gonna work correctly, You should see the `Who am I?` text while
 
 ## add a backend
 
-
+### configure vapi_hello_world project
 go back to your workspace and clone https://github.com/jurgob/vapi_hello_world
 
 ```
@@ -139,7 +139,7 @@ cd vapi_hello_world
 ```
 read the readme here: https://github.com/jurgob/vapi_hello_world and be sure your inbound call is working
 
-
+### create a user
 with this project you can also create a user, let's crete a user called `myuser` 
 
 ```
@@ -148,6 +148,7 @@ npm run cli_create_user myuser
 
 ```
 
+### add a login on your react app
 
 now go back in the `nexmo_client_sdk_react_tutorial` project and change the src/App.js file again: 
 
@@ -306,6 +307,8 @@ function App() {
 export default App;
 
 ```
+
+### enjoy your react frontend + backend
 
 now on localhost:3000 you shoudl see a form asking for a user name. 
 
