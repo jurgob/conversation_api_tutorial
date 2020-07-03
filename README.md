@@ -164,7 +164,7 @@ cd nexmo_client_sdk_react_tutorial
 install axios
 
 ```
-npm install --save nexmo-client
+npm install --save axios
 ```
 
 and change the src/App.js file again: 
