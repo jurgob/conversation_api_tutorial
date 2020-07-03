@@ -150,13 +150,25 @@ npm run cli_create_user myuser
 
 ### add a login on your react app
 
-now go back in the `nexmo_client_sdk_react_tutorial` project and change the src/App.js file again: 
+
+now go back in the `nexmo_client_sdk_react_tutorial` project 
+
 
 ```
 cd ..
 cd nexmo_client_sdk_react_tutorial
 
 ```
+
+
+install axios
+
+```
+npm install --save nexmo-client
+```
+
+and change the src/App.js file again: 
+
 
 change src/App.js with: 
 
